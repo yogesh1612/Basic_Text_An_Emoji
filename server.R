@@ -28,7 +28,7 @@ shinyServer(function(input, output){
                        })
  
 emoji_count_df <- reactive({
-                  plotEmojis <- temp %>% 
+                  plotEmojis <- emoji_df() %>% 
                   unnest(c(emoji, emoji_name)) %>% 
                   mutate( emoji = str_sub(emoji, end = 1)) %>% 
                   mutate( emoji_name = str_remove(emoji_name, ":.*")) %>% 
