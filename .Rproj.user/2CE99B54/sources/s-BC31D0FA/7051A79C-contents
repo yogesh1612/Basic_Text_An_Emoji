@@ -1,0 +1,6 @@
+if (!require(shiny)) {install.packages("shiny")};  library(shiny)
+if (!require(tidyverse)) {install.packages("tidyverse")};  library(tidyverse)
+if (!require(ggimage)) {install.packages("ggimage")};  library(ggimage)
+if (!require(rwhatsapp)) {install.packages("rwhatsapp")};  library(rwhatsapp)
+if (!require(stringr)) {install.packages("stringr")};  library(stringr)
+if (!require(stringi)) {install.packages("stringi")};  library(stringi)

@@ -1,0 +1,13 @@
+name: Basic_Text_An_Emoji
+title: Basic_Text_An_Emoji
+username:
+account: sudhir-voleti
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3506209
+bundleId: 4129306
+url: https://sudhir-voleti.shinyapps.io/Basic_Text_An_Emoji/
+when: 1611314699.72221
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Arsenal.csv|manutd.csv|manutd_tweets.csv

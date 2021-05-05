@@ -1,0 +1,24 @@
+{
+    "id": "0912FC7E",
+    "path": "D:/R Projects/Basic_Text_An_Emoji/data/manutd_tweets.csv",
+    "project_path": "data/manutd_tweets.csv",
+    "type": "text",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620194837700.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1609849452,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609849452,
+    "read_only": false,
+    "read_only_alternatives": []
+}
