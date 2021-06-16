@@ -4,7 +4,7 @@ shinyServer(function(input, output){
   emoji_df <- reactive({
     if (is.null(input$file)) { return(NULL) }
     else{
-      Dataset <- read.csv(input$file$datapath ,header=FALSE, encoding = "UTF-8")
+      Dataset <- readr::read_csv(input$file$datapath)
       Dataset <-unique(Dataset)
       names(Dataset) <- "text"
       emoji_df <- lookup_emoji.data.frame(Dataset)
@@ -60,7 +60,7 @@ output$plotemoji <- renderPlot({emoji_count_df() %>%
 output$downloadData1 <- downloadHandler(
   filename = function() { "man_utd_tweets.csv" },
   content = function(file) {
-    write.csv(read.csv("data/manutd_tweets.csv",encoding = "UTF-8"), file,row.names = FALSE)
+    readr::write_csv(readr::read_csv("data/manutd_tweets.csv"), file)#,row.names = FALSE)#,fileEncoding = "UTF-8")
   }
 )
   
